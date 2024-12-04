@@ -7,15 +7,17 @@
       right: 0;
       scroll-behavior: smooth;
       height: 100%;
+      background-color: #F3F4F6(241, 74, 241);
     }
 
     .header-row {
-      background-color: orange;
+      background-color: #001F3F;
       display: flex;
       justify-content: space-between;
       align-items: center;
       position: sticky;
       top: 0px;
+      color: #FFFFFF;
     }
 
     .header-row .box {
@@ -30,10 +32,12 @@
 
     .header-row a {
       text-decoration: none;
+      color: #22D3EE;
     }
 
     .header-row a:hover {
       text-decoration: underline;
+      color: #FF49DB;
     }
 
     .row {
@@ -49,13 +53,14 @@
     .footer {
       padding: 20px;
       margin: 0px;
-      background-color: black;
+      background-color: #001F3F;
       color: white;
       font-size: large;
+      text-align: center;
     }
 
     button {
-      background-color: teal;
+      background-color: #FF851B;
       padding: 10px;
       color: white;
       border: none;
