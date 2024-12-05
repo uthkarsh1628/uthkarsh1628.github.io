@@ -50,6 +50,7 @@
       margin: 10px;
     }
 
+
     .footer {
       padding: 20px;
       margin: 0px;
@@ -60,9 +61,19 @@
     }
 
     button {
-      background-color: #FF851B;
+      background-color: brown;
       padding: 10px;
       color: white;
       border: none;
       border-radius: 10%;
     }
+    
+    a:hover{
+      text-decoration: underline;
+      color: #F3F4F6;
+    }
+    a{
+      text-decoration: none;
+      color: yellowgreen;
+    }
+    
